@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1>Simulação de páginas</h1>
+    </div>
+    <div class="input">
+        <input type="text" id="pagina" placeholder="Digite aqui">
+    </div>
+    <div class="botao">
+        <button onclick="empilhar()">Pesquisar</button>
+        <br><br>
+        <button onclick="voltar()">Página Anterior</button>
+        <button onclick="paginaAtual()">Página Atual</button>
+    </div>
+    <h3>Histórico de Páginas acessadas:</h3>
+    <div class="historico"></div>
+    <ul id="historico"></ul>    
+</body>
+</html>
